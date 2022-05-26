@@ -218,8 +218,7 @@ def darw_table_2(stock, recent_date, buy_date, buy_price, sell_date, sell_price,
         inside_content.append(buy_price[i]) #買入價格
         inside_content.append(sell_date[i]) #賣出日期
         inside_content.append(sell_price[i]) #賣出價格
-        last_close_price = stock[(stock.date==recent_date)]["close"].values[0]
-        inside_content.append("{:.2f}".format(((sell_price[i]- (buy_price[i]*1.004425) - (last_close_price*0.001425))*1000))) #損益
+        inside_content.append("{:.2f}".format(((sell_price[i]- (buy_price[i]*1.001425) - (sell_price[i]*0.004425))*1000))) #損益
         inside_content.append("{:.2%}".format(ROI[i])) #實質報酬率
         inside_content.append("{:.2%}".format(sum(ROI[:(i+1)]))) #實質累積報酬率
         inside_content.append("{:.2f}".format((buy_price[i]+sell_price[i])*0.00285*1000)) #手續費
