@@ -1,4 +1,7 @@
 .DS_Store
 /origin
-/side-project
 backtest_linebot/config.ini
+backtest_linebot/side_project/StockLib/__pycache__
+backtest_linebot/side_project/__pycache__
+backtest_linebot/__pycache__
+.ipynb_checkpoints
