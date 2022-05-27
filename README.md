@@ -32,8 +32,10 @@ Finding the correlation between the weather and the price by using linear regres
 It's a tutorial of basic Google Apps Script language for sharing.</br>
 Besides GAS tutorial, there's a side-project in this teaching material.</br>
 The side-project is used to fixing the worry of choosing what to eat in lunch.</br>
+For more information about this project, please click [here](https://docs.google.com/spreadsheets/d/1b9ngb2sEA_tEP1LScHX-s3c79-kaDZAl9I9MMJuZ9YA/edit?usp=sharing).</br>
 
 ### Texas Hold'em</br>
 Texas Hold'em game made by Google Apps Script and google sheets function.</br>
+For more information about this project, please click [here](https://docs.google.com/spreadsheets/d/15UN23baYrNKWHMCvaZo0q8OnPCamLAn7rtw-SIDVTgI/edit?usp=sharing).</br>
 
 
