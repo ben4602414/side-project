@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 #from __future__ import unicode_literals
 from flask import Flask, request, abort
 from linebot import LineBotApi, WebhookHandler
@@ -66,8 +60,6 @@ def back_testing(stock_name, user_strategy):
     
     stock_analysis_strategy(strategy_func[user_strategy][0], strategy_func[user_strategy][1], user_strategy, stock_name, stock, kline, recent_date)
 
-
-# In[ ]:
 
 
 def backtesting_result(event,receiver):
@@ -147,9 +139,6 @@ def backtesting_result(event,receiver):
                 TextSendMessage(text="【股票輸入正確】且【投資策略輸入正確】\n 股票回測已傳送......"))
 
 
-# In[ ]:
-
-
 def new_or_old(id_storage, user_id, user_reply_category, service_name):
     #用戶是第一次使用查詢系統
     if user_id not in id_storage["id"]:
@@ -178,7 +167,7 @@ def define_bot(id_storage,user_id,reply_content,event):
     if len(id_storage[user_id]["time_record"]) % 1 == 0 and time_check <= 10:
         line_bot_api.reply_message(
             event.reply_token,
-            TextSendMessage(text="【系統在短時間內接受到過多的請求，系統將暫停使用%d秒鐘，待系統冷卻時間過後請再次送出訊息】"
+            TextSendMessage(text="【系統在短時間內接受到過多的請求，系統將暫停使用%d秒鐘，待系統冷卻時間過後請再次送出訊息】" % 
                             (len(id_storage[user_id]["time_record"])*10)))
         time.sleep(len(id_storage[user_id]["time_record"])*10)
     #非機器人，則回傳以下訊息
@@ -197,10 +186,6 @@ def email_format(email_text):
     else:
         return False
     
-
-
-# In[ ]:
-
 
 def search_system(event):
     global id_storage
@@ -336,8 +321,6 @@ def search_system(event):
 
 
 
-# In[ ]:
-
 
 def send_results(receiver, stock_name, strategy_name):
     email_gmail = config.get('gmail', 'account')
@@ -371,7 +354,5 @@ def send_results(receiver, stock_name, strategy_name):
         print("The file has been deleted successfully")
     else:
         print("The file does not exist!")
-        
-        
-        
+           
 
