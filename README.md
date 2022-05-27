@@ -7,6 +7,7 @@
 ### Weather_Agriculture</br>
 使用爬蟲，抓取台灣天氣以及農產品價格</br>
 運用線性回歸，找尋天氣以及農產品價格的相關性</br>
+Tableau視覺化，線性回歸相關連結[請按這裡](https://public.tableau.com/app/profile/ben4602414/viz/_16510427808810/sheet4)</br>
 
 ### GAS introduction</br>
 過去分享Google Apps Script的基礎使用教材</br>
@@ -27,6 +28,8 @@ Start up backtesting via linebot.</br>
 ### Weather_Agriculture</br>
 Webscrawling the data of Taiwaness weather and the price of agriculture.</br>
 Finding the correlation between the weather and the price by using linear regression.</br>
+Visualization in Tableau, please click[here](https://public.tableau.com/app/profile/ben4602414/viz/_16510427808810/sheet4)</br>
+
 
 ### GAS introduction</br>
 It's a tutorial of basic Google Apps Script language for sharing.</br>
