@@ -1,27 +1,27 @@
 # Side-project introduction
 
 ### Backtest_linebot</br>
-找出最適合該台股的技術指標，回測時間為三年</br>
-將回測相關資訊導入Linebot中</br>
-更詳細的說明請點選資料夾觀看</br>
+透過技術指標，回測台股個股</br>
+設計股票回測專用的Linebot</br>
+更詳細的說明，請點選資料夾觀看</br>
 
 ### Weather_Agriculture</br>
-使用爬蟲，抓取台灣天氣以及農產品價格</br>
-運用線性回歸，找尋天氣以及農產品價格的相關性，以及顯著程度</br>
+使用爬蟲，抓取台灣天氣以及農產品價格的資料</br>
+運用線性回歸，找尋天氣以及農產品價格的相關性，並判斷顯著程度</br>
 Tableau視覺化，呈現結果為顯著的線性回歸。相關連結[請按這裡](https://public.tableau.com/app/profile/ben4602414/viz/_16510427808810/sheet4)</br>
-更詳細的說明請點選資料夾觀看</br>
+更詳細的說明，請點選資料夾觀看</br>
 
 ### GAS introduction</br>
 分享Google Apps Script的基礎使用教材</br>
 除了教基本語法，還有實作小型專案。</br>
 小型專案的主題為“解決午餐要吃什麼的煩惱”</br>
 相關連結[請按這裡](https://docs.google.com/spreadsheets/d/1b9ngb2sEA_tEP1LScHX-s3c79-kaDZAl9I9MMJuZ9YA/edit?usp=sharing)</br>
-更詳細的說明請點選資料夾觀看</br>
+更詳細的說明，請點選資料夾觀看</br>
 
 ### Texas Hold'em</br>
 使用 Google Apps Script 與 google sheets 函式做的德州撲克</br>
 相關連結[請按這裡](https://docs.google.com/spreadsheets/d/15UN23baYrNKWHMCvaZo0q8OnPCamLAn7rtw-SIDVTgI/edit?usp=sharing)</br>
-更詳細的說明請點選資料夾觀看</br>
+更詳細的說明，請點選資料夾觀看</br>
 
 ------
 
