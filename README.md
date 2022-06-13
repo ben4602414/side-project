@@ -7,6 +7,7 @@
 * 資料清洗：Python(Pandas, Numpy)</br>
 * 資料儲存：NoSQL(MongoDB)</br>
 * 資料視覺化：HTML(pyechart), Excel</br>
+* 聊天機器人: Linebot串接, ngrok, flask</br>
 
 
 ### Weather_Agriculture</br>
