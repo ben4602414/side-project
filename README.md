@@ -5,7 +5,7 @@
 * 資料收集：API串接</br>
 * 資料清洗：Python(Pandas, Numpy)</br>
 * 資料儲存：NoSQL(MongoDB)</br>
-* 資料視覺化：Tableau, Excel</br>
+* 資料視覺化：HTML, Excel</br>
 * 分析結果：MACD策略在2330(台積電)回測中，雖然收益是最高的，但是他的最大獲利僅低於總獲利不到1萬，由此可知此交易策略在牛市比較有用，在平盤時無法發揮</br>
 
 
