@@ -7,7 +7,7 @@
 * 資料清洗：Python(Pandas, Numpy)</br>
 * 資料儲存：NoSQL(MongoDB)</br>
 * 資料視覺化：HTML(pyechart), Excel</br>
-* 聊天機器人: Linebot串接, ngrok, flask</br>
+* 聊天機器人: Linebot, ngrok, flask</br>
 
 
 ### Weather_Agriculture</br>
@@ -33,24 +33,42 @@
 
 ------
 
-### Backtest_linebot</br>
-Using technical analysis indictors to backtest Taiwaness stock in the past 3 years.</br>
-Start up backtesting via linebot.</br>
+### Backtest_linebot
+Introduction：Quantitatively analyze stock and find the most appropriate trading strategy. Building a linebot to start up the backtesting result.</br>
+Analysis result：Although the highest total profit in backtesting is using MACD strategy in 2330, the maximum profit is just lower than the total profit among 10 thousands. Based on the observation, we could say MACD have an advantage in bull market but not correction</br>
+* Data source：API</br>
+* Data cleaning：Python(Pandas, Numpy)</br>
+* Data storage：NoSQL(MongoDB)</br>
+* Data visualization：HTML(pyechart), Excel</br>
+* Chat bot: Linebot, ngrok, flask</br>
 
-### Weather_Agriculture</br>
-Webscrawling the data of Taiwaness weather and the price of agriculture.</br>
-Finding the correlation between the weather and the price by using linear regression.</br>
-Visualization in Tableau, please click [here](https://public.tableau.com/app/profile/ben4602414/viz/_16510427808810/sheet4)</br>
+### Weather_Agriculture
+Introduction: (1)Finding the best timing for restaurants to purchasing agricultural products.</br>
+              (2)Statistically analyze the correlation between weather and the price of agricultural products by using linear regression</br>
+Analysis result：Calculate the possible food cost saving for restaurants in a year via the average of number of customers. Besides, we found that some fruits like pomelo and grapefruit are cheaper when they are out of season. Those fruits are not recommended for purchasing when only following the cheaper price. Except, made those fruits in jam.
+* Data source：Selenium, bs4, requests (Webscrawl models)</br>
+* Data cleaning：Python(Pandas, Numpy), Excel</br>
+* Data storage：Excel</br>
+* Data visualization：Tableau, Excel</br>
+* Statistical analysis: Python(scipy, scikit-learn)</br>
+* Visualize the significant linear regression between weather and the price of agricultural product.(Significant level:95%, R square > 0.9)
+Visualization of linear regression in Tableau, please click [here](https://public.tableau.com/app/profile/ben4602414/viz/_16510427808810/sheet4)</br>
 
 
-### GAS introduction</br>
-It's a tutorial of basic Google Apps Script language for sharing.</br>
-Besides GAS tutorial, there's a side-project in this teaching material.</br>
-The side-project is used to fixing the worry of choosing what to eat in lunch.</br>
-For more information about this project, please click [here](https://docs.google.com/spreadsheets/d/1b9ngb2sEA_tEP1LScHX-s3c79-kaDZAl9I9MMJuZ9YA/edit?usp=sharing).</br>
+### GAS instructional material
+Introduction: It's a Google Apps Script instructional material in beginner level and be with small project</br>
+* Small project topics: fixing the worry of choosing what to eat in lunch</br>
+##### Introduction of small project: 
+> 1. Collecting the nearby restaurants data via Google map. 
+> 2. Surveying people's thought of today's lunch via Google form. 
+> 3. Randomly choose the restaurants for those people have no idea about their lunch and then find the partner for them. 
+> 4. Sending the results in Gmail.</br>
 
-### Texas Hold'em</br>
-Texas Hold'em game made by Google Apps Script and google sheets function.</br>
-For more information about this project, please click [here](https://docs.google.com/spreadsheets/d/15UN23baYrNKWHMCvaZo0q8OnPCamLAn7rtw-SIDVTgI/edit?usp=sharing).</br>
+For more information about this project in google sheets, please click [here](https://docs.google.com/spreadsheets/d/1b9ngb2sEA_tEP1LScHX-s3c79-kaDZAl9I9MMJuZ9YA/edit?usp=sharing "https://docs.google.com/spreadsheets/d/1b9ngb2sEA_tEP1LScHX-s3c79-kaDZAl9I9MMJuZ9YA/edit?usp=sharing").</br>
+
+
+### Texas Hold'em
+Introduction: People who have the right of this google sheets could play Texas Hold'em together. The number of player could be adjust.(Player: 3-7)</br>
+For more information about this project in google sheets, please click [here](https://docs.google.com/spreadsheets/d/15UN23baYrNKWHMCvaZo0q8OnPCamLAn7rtw-SIDVTgI/edit?usp=sharing "https://docs.google.com/spreadsheets/d/15UN23baYrNKWHMCvaZo0q8OnPCamLAn7rtw-SIDVTgI/edit?usp=sharing").</br>
 
 
