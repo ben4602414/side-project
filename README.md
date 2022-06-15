@@ -24,12 +24,12 @@
 簡介：分享Google Apps Script的基礎使用教材，內容包含基本語法，以及實作小型專案</br>
 * 小型專案的主題為“解決午餐要吃什麼的煩惱”</br>
 * 專案介紹：透過Google map蒐集附近餐廳資訊，Google表單調查每個人當天對午餐的想法，替沒想法的人隨機選擇餐廳，並替他們找伴，最終以Gmail告知結果</br>
-* Google sheets相關連結[請按這裡](https://docs.google.com/spreadsheets/d/1b9ngb2sEA_tEP1LScHX-s3c79-kaDZAl9I9MMJuZ9YA/edit?usp=sharing)</br>
+* 關於此專案的Google sheets相關連結[請按這裡](https://docs.google.com/spreadsheets/d/1b9ngb2sEA_tEP1LScHX-s3c79-kaDZAl9I9MMJuZ9YA/edit?usp=sharing)</br>
 
 ### Texas Hold'em</br>
 簡介：將玩家加入共同的語音平台，並且共享此Google sheets便能遊玩德州撲克，能夠依照玩家數做調整（人數限制:3-7人）</br>
 * 使用 Google Apps Script 與 Google sheets 函式做的德州撲克</br>
-* Google sheets相關連結[請按這裡](https://docs.google.com/spreadsheets/d/15UN23baYrNKWHMCvaZo0q8OnPCamLAn7rtw-SIDVTgI/edit?usp=sharing)</br>
+* 關於此專案的Google sheets相關連結[請按這裡](https://docs.google.com/spreadsheets/d/15UN23baYrNKWHMCvaZo0q8OnPCamLAn7rtw-SIDVTgI/edit?usp=sharing)</br>
 
 ------
 
